@@ -1,14 +1,14 @@
 # 📱 Telegram Message Spam Classifier
 
-Proyek ini adalah sistem deteksi pesan spam untuk platform Telegram menggunakan tiga pendekatan Deep Learning: **LSTM**, **Universal Sentence Encoder (USE)**, dan **IndoBERT**. Dashboard interaktif dibangun menggunakan **Gradio** untuk memudahkan pengguna melakukan pengujian model secara langsung.
+Proyek ini adalah sistem deteksi pesan spam  dan non spam untuk platform Telegram menggunakan tiga pendekatan Deep Learning: **LSTM**, **Universal Sentence Encoder (USE)**, dan **IndoBERT**. Dashboard interaktif dibangun menggunakan **Gradio** untuk memudahkan pengguna melakukan pengujian model secara langsung.
 
 ---
 
 ## 📄 Deskripsi Proyek
-Proyek ini bertujuan untuk mengatasi gangguan pesan spam pada grup atau chat pribadi Telegram. Dengan membandingkan tiga arsitektur model yang berbeda, proyek ini memberikan analisis mendalam tentang model mana yang paling efektif dalam menangkap pola bahasa spam dalam bahasa Indonesia.
+Proyek ini bertujuan untuk mengatasi gangguan pesan spam pada grup atau chat pribadi . Dengan membandingkan tiga arsitektur model yang berbeda, proyek ini memberikan analisis mendalam tentang model mana yang paling efektif dalam menangkap pola bahasa spam dalam bahasa Indonesia.
 
 ## 🧪 Dataset dan Preprocessing
-Dataset terdiri dari pesan teks yang diberi label `0` (Non-Spam) dan `1` (Spam).
+Dataset terdiri dari pesan teks sebanyak 5100 yang diberi label `0` (Non-Spam) dan `1` (Spam).
 Tahapan preprocessing meliputi:
 * **Case Folding**: Mengubah semua teks menjadi huruf kecil.
 * **Cleaning**: Menghapus angka, tanda baca, dan karakter khusus.
@@ -38,9 +38,3 @@ Berdasarkan pengujian pada data uji (973 sampel), berikut adalah ringkasan perfo
 
 ---
 
-## 🚀 Panduan Menjalankan Secara Lokal
-
-### 1. Prasyarat
-Pastikan Anda sudah menginstal Python 3.10+ dan library yang diperlukan:
-```bash
-pip install tensorflow transformers gradio nltk pandas numpy scikit-learn
