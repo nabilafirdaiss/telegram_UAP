@@ -1,6 +1,6 @@
 # 📱 Telegram Message Spam Classifier
 
-Proyek ini adalah sistem deteksi pesan spam untuk platform Telegram menggunakan tiga pendekatan Deep Learning: **LSTM**, **Universal Sentence Encoder (USE)**, dan **IndoBERT**. Dashboard interaktif dibangun menggunakan **Gradio** untuk memudahkan pengguna melakukan pengujian model secara langsung.
+Proyek ini adalah sistem deteksi pesan spam untuk menggunakan tiga model: **LSTM**, **Universal Sentence Encoder (USE)**, dan **IndoBERT**. Dashboard interaktif dibangun menggunakan **Gradio** untuk memudahkan pengguna melakukan pengujian model secara langsung.
 
 ---
 
@@ -39,3 +39,4 @@ Berdasarkan pengujian pada data uji (973 sampel), berikut adalah ringkasan perfo
 ---
 
 ## 🚀 Panduan Menjalankan Secara Lokal
+
