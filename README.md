@@ -5,7 +5,7 @@ Proyek ini adalah sistem deteksi pesan spam  menggunakan tiga model : **LSTM**, 
 ---
 
 ## 📄 Deskripsi Proyek
-Proyek ini bertujuan untuk mengatasi gangguan pesan spam pada grup atau chat pribadi Telegram. Dengan membandingkan tiga arsitektur model yang berbeda, proyek ini memberikan analisis mendalam tentang model mana yang paling efektif dalam menangkap pola bahasa spam dalam bahasa Indonesia.
+Proyek ini bertujuan untuk mengatasi gangguan pesan spam pada grup atau chat pribadi . Dengan membandingkan tiga arsitektur model yang berbeda, proyek ini memberikan analisis mendalam tentang model mana yang paling efektif dalam menangkap pola bahasa spam dalam bahasa Indonesia.
 
 ## 🧪 Dataset dan Preprocessing
 Dataset terdiri dari pesan teks yang diberi label `0` (Non-Spam) dan `1` (Spam).
@@ -16,7 +16,7 @@ Tahapan preprocessing meliputi:
 * **Stemming**: Mengubah kata ke bentuk dasarnya menggunakan Porter Stemmer.
 
 ## 🤖 Model yang Digunakan
-1.  **LSTM (Long Short-Term Memory)**: Model RNN yang dirancang untuk mempelajari ketergantungan jangka panjang dalam teks.
+1.  **LSTM (Long Short-Term Memory)**: Model yang dirancang untuk mempelajari ketergantungan jangka panjang dalam teks.
 2.  **Universal Sentence Encoder (USE)**: Model embedding tingkat kalimat yang kuat untuk menangkap makna semantik.
 3.  **IndoBERT**: Model berbasis Transformer yang telah dilatih khusus pada korpus besar bahasa Indonesia (SOTA).
 
@@ -24,7 +24,7 @@ Tahapan preprocessing meliputi:
 
 ## 📊 Hasil Evaluasi dan Analisis Perbandingan
 
-Berdasarkan pengujian pada data uji (973 sampel), berikut adalah ringkasan performanya:
+Berdasarkan pengujian pada data uji , berikut adalah ringkasan performanya:
 
 | Model | Accuracy | F1-Score (Macro) | Keterangan |
 | :--- | :---: | :---: | :--- |
@@ -38,7 +38,7 @@ Berdasarkan pengujian pada data uji (973 sampel), berikut adalah ringkasan perfo
 
 ---
 
-## 🚀 Panduan Menjalankan Secara Lokal
+## 🚀 Panduan Menjalankan
 
 ### 1. Prasyarat
 Pastikan Anda sudah menginstal Python 3.10+ dan library yang diperlukan:
