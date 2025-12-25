@@ -1,6 +1,6 @@
 # 📱 Telegram Message Spam Classifier
 
-Proyek ini adalah sistem deteksi pesan spam  menggunakan tiga model : **LSTM**, **Universal Sentence Encoder (USE)**, dan **IndoBERT**. Dashboard interaktif dibangun menggunakan **Gradio** untuk memudahkan pengguna melakukan pengujian model secara langsung.
+Proyek ini adalah sistem deteksi pesan spam  menggunakan tiga model : **LSTM**, **Universal Sentence Encoder (USE)**, dan **IndoBERT**. 
 
 ---
 
